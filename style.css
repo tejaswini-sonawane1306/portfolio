@@ -780,7 +780,7 @@ html{
         backdrop-filter: blur(10px);
        }
 
-       #name{
+       #name1{
          width: 450px;
         padding: 12px;
         display: inline-block;
@@ -793,7 +793,7 @@ html{
         cursor: pointer;
        }
 
-        #email{
+        #email1{
         width: 450px;
         padding: 12px;
          border-color:transparent transparent #00f7ff transparent  ;
@@ -806,7 +806,7 @@ html{
         cursor: pointer;
        }
 
-       #message{
+       #message1{
         width:965px;
         padding: 12px;
         border-color:transparent transparent #00f7ff transparent  ;

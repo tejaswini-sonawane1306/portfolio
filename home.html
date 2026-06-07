@@ -240,11 +240,12 @@
 
 <!--form-->
 
-<form id="contact-info" method="post">
-    <input type="text" id="name" placeholder="Your name" required>
-    <input type="email" id="email" placeholder="Your Email" required><br>
-    <textarea id="message"  placeholder="Your message" rows="5" required></textarea><br>
-    <a  href="mailto:sonawanetejaswini2304@gmail.com"><button type="submit">Send message</button></a>
+<form id="contact-info" action="https://api.web3forms.com/submit" method="post">
+    <input type="hidden" name="access_key" value="5a95f49f-ef6f-45cd-ace0-9710dbb079bc">
+    <input type="text" id="name1" name="name" placeholder="Your name" required>
+    <input type="email" id="email1" name="email" placeholder="Your Email" required><br>
+    <textarea id="message1" name="message" placeholder="Your message" rows="5" required></textarea><br>
+    <button type="submit">Send message</button>
     <p id="status"></p>
 </form>
 
